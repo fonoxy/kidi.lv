@@ -1,0 +1,217 @@
+/* don't touch magic of robots, unicorns and css starts here */
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    border: 0;
+}
+
+ul, dl {
+    list-style: none;
+}
+
+body {
+    background-color: #ccc;
+}
+body, html {
+    height: 100%;
+    font-family: arial, sans-serif;
+}
+
+div#wrapper {
+    width: 960px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -20px auto;
+    position: relative;
+    width: 980px;
+
+}
+
+div.push {
+    height: 20px;
+}
+/* don't touch ends here */
+
+body {
+    background: url(images/kidi_bck.gif);
+}
+
+p#footer {
+    position: absolute;
+    bottom: 5px;
+    left: 80px;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: 11px;
+    text-align: left;
+     color: #099;
+}
+
+#wrapper {
+    background: white top right repeat-y;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+
+#menu {
+    float: right;
+    width: 190px;
+    position: absolute;
+	height: 100%;
+    right: 0;
+    top: 0;
+    background-color: #FDFDD7;
+    list-style: none;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    border-left: 1px solid #ddd;
+}
+
+#content p.no-flash {
+    color: #933;
+    padding: 10px;
+    border: 1px solid #933;
+    width: 320px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#content img {
+    margin: 0 10px 10px 10px;
+}
+#content p {
+    font-size: 14px;
+    color: #555;
+    line-height: 150%;
+    margin: 12px 30px 7px 20px;
+}
+
+
+
+#flash {
+margin: 5px 0px 0px 45px;
+}
+
+#text-page {
+    font-size: 14px;
+    color: #555;
+    line-height: 150%;
+     padding: 20px 10px;
+	width: 750px;
+	text-align: justify;
+}
+
+#text-page p {
+    font-size: 14px;
+    color: #555;
+	width: 730px;
+	text-align: justify;
+}
+
+#content strong {
+    font-size: 140%;
+    margin-left: 10px;
+}
+textarea {
+    margin: 20px 0 10px 50px;
+}
+
+#table-page {
+    font-size: 14px;
+    color: #555;
+    line-height: 150%;
+    padding: 20px 10px;
+	width: 750px;
+	text-align: justify;
+	margin: 0px 0px 0px 10px;
+}
+
+table,td
+{
+	border               : 1px solid #CCC;
+	border-collapse      : collapse;
+    font                 : small/1.5 "Tahoma", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+	text-align: left;
+}
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+table
+{
+	border                :none;
+	border                :1px solid #CCC;
+}
+thead th,
+tbody th
+{
+	background            : #FFF url(th_bck.gif) repeat-x;
+  color                 : #666;  
+	padding               : 5px 10px;
+  border-left           : 1px solid #CCC;
+}
+tbody th
+{
+  background            : #fafafb;
+  border-top            : 1px solid #CCC;
+  text-align            : left;
+  font-weight           : normal;
+}
+tbody tr td
+{
+	padding               : 5px 10px;
+  color                 : #666;
+}
+tbody tr:hover
+{
+  background            : #FFF url(tr_bck.gif) repeat;
+}
+
+tbody tr:hover td
+{
+  color                 : #454545;
+}
+tfoot td,
+tfoot th
+{
+  border-left           : none;
+  border-top            : 1px solid #CCC;
+	padding               : 4px;
+  background            : #FFF url(foot_bck.gif) repeat;
+  color                 : #666;
+}
+caption
+{
+	text-align            : left;
+	font-size             : 120%;
+	padding               : 10px 0;
+	color                 : #666;
+}
+table a:link
+{
+	color                 : #666;
+}
+table a:visited
+{
+	color                 : #666;
+}
+table a:hover
+{
+	color                 : #003366;
+	text-decoration       : none;
+}
+table a:active
+{
+	color                 : #003366;
+}
+
+A:link {font-size: 14px; color: #666;}
+A:visited {font-size: 14px; color: #666;}
+A:active {font-size: 14px; color: #666;}
+A:hover {font-size: 14px; color: #003366;}
